@@ -81,3 +81,83 @@ header section button {
 }
 
 /* MAIN */
+
+section {
+  padding: 2em 1em;
+  border-bottom: 2px solid #e6e7e7;
+}
+
+#title {
+  display: flex;
+}
+
+#title h2 {
+  align-self: center;
+}
+
+section .container h2 {
+  color: #e6e7e7;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+section .container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+section .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+section .container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.content h4 {
+  margin: 0 0 6px 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  color: #a4a9a7;
+  font-size: 0.5rem;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.info span {
+  font-size: 1rem;
+  color: #757575;
+  opacity: 0.9;
+}
