@@ -268,18 +268,24 @@ section .info span {
 
 /* ASIDE */
 aside h3 {
-  margin-left: 2em;
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 700;
 }
-aside .container {
-  border-bottom: 2px solid #e6e7e7;
-  padding: 2em 0 2em 2em;
+
+aside {
+  padding: 2em 2em 2em 2em;
 }
 
 aside .container {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  border-bottom: 2px solid #e6e7e7;
+}
+
+aside .container button:nth-last-child(1) {
+  margin-bottom: 3em;
 }
 
 aside button {
@@ -298,7 +304,7 @@ aside ul {
 }
 
 .ul {
-  padding: 2em 1em 0 2em;
+  padding: 2em 0 0 0;
 }
 
 /* ARTICLE */
@@ -309,7 +315,7 @@ article .container {
   align-items: flex-start;
   justify-content: space-between;
   gap: 36px;
-  padding: 0 1em 2em 2em;
+  padding: 0 2em 2em 2em;
 }
 
 article .container:nth-child(1) {
