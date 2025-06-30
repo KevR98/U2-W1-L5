@@ -122,6 +122,7 @@ header section button {
 
   .svg {
     margin-left: auto;
+    max-width: fit-content;
   }
 }
 
@@ -140,6 +141,7 @@ header section button {
 
   .svg {
     margin-left: auto;
+    max-width: fit-content;
   }
 }
 
